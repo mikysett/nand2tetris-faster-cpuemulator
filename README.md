@@ -19,6 +19,13 @@ I created it only to test my assembler and VM in those limited cases where the o
 The program have a `Makefile` with a `make` rule. It also include my assembler and my VM. Those two can be replaced by yours: you'll need to put the source doe in `my_assembler` and `my_vm` directories and their makefile will be called by the parent directory.
 The binaries should of those two programs should be named `assembler` and `VMtranslator`.
 
+## Accepted arguments
+You must pass an argument when calling the program, it can be:
+1. A `directory` path -> the program will take all the .vm files and convert them to a .hack file.
+2. A `.vm` file path -> it will comvert this single file to a .hack file.
+3. A `.asm` file path -> it will comvert this single file to a .hack file.
+4. A `.hack` file path -> it will run the CPUEmulator directly.
+
 ## Debug mode
 In order to see verbose output in `cpuemulator.h`, `assembler.h` and `vmtranslator.h` switch `DEBUG_MODE` to 1.
 
