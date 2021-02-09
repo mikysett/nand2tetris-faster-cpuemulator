@@ -1,0 +1,12 @@
+{
+	"files.associations": {
+		"cpuemulator.h": "c",
+		"stdio.h": "c",
+		"ncurses.h": "c",
+		"stdlib.h": "c",
+		"libgen.h": "c",
+		"unistd.h": "c",
+		"types.h": "c",
+		"wait.h": "c"
+	}
+}
